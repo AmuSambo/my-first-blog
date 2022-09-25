@@ -16,4 +16,4 @@ class Post(models.Model):  #defines our model, it is an object, Post is the name
 
 
     def __str__(self):
-        return self.title
+        return self.titles
